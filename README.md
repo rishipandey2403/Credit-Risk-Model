@@ -44,10 +44,10 @@ flowchart LR
     A[Raw Credit Data] --> B[Data Quality Checks]
     B --> C[Feature Engineering & Encoding]
     C --> D[Train/Test Split]
-    D --> E[Model Training\n(LogReg/NB/DT/SVM/XGB)]
-    E --> F[Evaluation Layer\n(Accuracy, F1, Recall, Precision, ROC)]
+    D --> E["Model Training<br/>(LogReg/NB/DT/SVM/XGB)"]
+    E --> F["Evaluation Layer<br/>(Accuracy, F1, Recall, Precision, ROC)"]
     F --> G[Model Selection: XGBoost]
-    G --> H[Business Decision Support\n(Loan Approval Risk Score)]
+    G --> H["Business Decision Support<br/>(Loan Approval Risk Score)"]
 ```
 
 ---
